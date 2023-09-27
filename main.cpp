@@ -6,7 +6,7 @@ int main()
 {
     fstream outfile;
 
-    outfile.open("resume.html", ios::out);
+    outfile.open("index.html", ios::out);
 
     // Personal Details _______________________________________________________________________________________________
 
@@ -42,7 +42,7 @@ int main()
     outfile << "\" target=\"_blank\">LinkedIn Profile</a></li><li>GitHub: <a href=\"";
 
     // Github -> 
-    cout << "Enter the link of Gihub : ";
+    cout << "Enter the link of Github : ";
     string github;
     getline(cin, github);
     outfile << github;
@@ -55,7 +55,7 @@ int main()
     outfile << "<main><section id=\"education\"><h2>Education</h2><div class=\"entry\"><h3>BS in Computer Engineering</h3><p>";
 
     // College Name --->
-    cout << "Enter your Collge Name, City and State : ";
+    cout << "Enter your College Name, City and State : ";
     string college_name;
     getline(cin, college_name);
     outfile << college_name;
